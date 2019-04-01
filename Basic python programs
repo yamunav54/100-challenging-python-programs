@@ -1,0 +1,1083 @@
+1)"Write a program to print numbers#
+ #from zero to 10 using for loop, without using range"
+Ans: 
+count=0
+for i in " "*10:
+     print(count)
+     count=count+1
+
+ 2) "Write a program to print numbers#
+ #from zero to 10 using for loop using range"
+Ans:
+for i in range(0,11):
+    print(i)
+
+3) Write a program to print even numbers between 0 and 25 using for loop, without using range?
+  # hint: 0 and 25 not included
+  Ans:
+    if(count)
+         print(count)
+         count=count+2
+  
+ 4) Write a program to print even numbers between 0 and 25 using for loop and range?
+  # hint: 0 and 25 not included
+ Ans: 
+
+for i in range(0,25,1):
+    if(i%2==0):
+        print(i)
+
+
+5) Write a program to get a number from user and print first 5 numbers in decending order.
+First number being the number got from user. Use for loop
+
+Ans:
+n=int(input("enter the number"))
+for i in " " * 5:
+    n=n-1
+    print(n)
+or    
+    
+n=int(input("enter the number"))
+limit=n-5
+for i in range(n):
+    if n==limit:
+        break
+    print(n)
+    n=n-1 
+     
+
+ 6) "Write a program to get a string and print its length ,
+    without using len function"#
+    
+Ans:
+a=input("enter the name")
+counter=0
+for i in a:
+    counter=counter+1
+print(counter)
+
+7) Predict Output:
+    s1 = { 1, 2, 3, 4}
+    s2 = { 3, 4, 'a', 'b' }
+    s3 = s2.intersection(s1)
+    print(s3)
+    s4 = s1.intersection(s2)
+    print(s4)
+    
+SET
+	
+8) Predict Output:
+    s = { 1, "a" }
+    s.add(20)
+    s.add(20)
+    print(s)
+    
+9) Predict Output:
+    s = set()
+    print(1, s)
+    s.add(1)
+    print(2, s)
+    s.clear()
+    print(3, s)
+
+10) Predict Output:
+    s = set()
+    s.add("a")
+    s.add("b")
+    v = s
+    v.add("c")
+    print(s)
+
+11). Predict Output:
+    s1 = { 1, 2, 3, 4}
+    s2 = { 3, 4, 'a', 'b' }
+    s3 = s2.difference(s1)
+    print(s3)
+    s4 = s1.difference(s2)
+    print(s4)
+    
+12). Predict Output:
+    s1 = { 1, 2, 3, 4}
+    s2 = { 3, 4, 'a', 'b' }
+    s3 = s2.difference_update(s1)
+    print(s3)
+    print(s2)
+    
+13). Predict Output:
+    s1 = { 1, 2, 3, 4}
+    s1.discard(1)
+    print(s1)
+    s1.discard(10)
+    print(s1)
+    
+14). Predict Output:
+    s1 = { 1, 2, 3, 4}
+    s2 = { 3, 4, 'a', 'b' }
+    s3 = s2.intersection(s1)
+    print(s3)
+    s4 = s1.intersection(s2)
+    print(s4)
+    
+15). Predict Output:
+    s1 = { 1, 2, 3, 4}
+    s2 = { 3, 4, 'a', 'b' }
+    s3 = s2.intersection_update(s1)
+    print(s3)
+    print(s2)
+
+16). Predict Output:
+    s1 = { 1, 2, 3 }
+    s2 = { 3,'a', 'b' }
+    if s1.isdisjoint(s2):
+        print(s1.difference(s2))
+    else:
+        print(s1.intersection(s2)
+
+17). Predict Output:
+    s1 = { 1, 2, 3, 4, 5 }
+    s2 = { 3, 5 }
+    if s1.issuperset(s2):
+        print("Yes")
+    if s2.issubset(s1):
+        print("world never ends here......")
+
+18). Predict Output:
+    s1 = { 1, 2, 3, 4, 5 }
+    while(len(s1)):
+        s1.pop()
+    print(s1)
+    
+19). Predict Output:
+    s1 = { 1, 2, 3, 4, 5 }
+    lst = []
+    for i in s1:
+        lst.append(i)
+    for i in lst:
+        s1.remove(i)
+    print(s1)
+
+20). Predict Output:
+    s1 = { 3,4,5 }
+    s2 = {'a', 'b', 3, 4 }
+    s3 = s2.symmetric_difference(s1)
+    print(s3)
+    s1 = { 3,4,5 }
+    s2 = {'a', 'b', 3, 4 }
+    s4 = s2.symmetric_difference_update(s2)
+    print(s4)
+    
+21). Predict Output:
+    s1 = { 1, 2, 3, 4, 5 }
+    s2 = { 'a', 'b', 'c' }
+    s3 = { 2.3, 4.5 }
+    s4 = { 'q', 'w', 'e' }
+    s5 = s1.union(s1, s2)
+    s6 = s2.update(s1, s3)
+    print(s5)
+    print(s6)
+
+LIST
+
+22)Write a program to add an element at the end of the list?
+    Hint: 
+        Hardcode any non-empty list in the program
+        Use of built-in function of list
+
+Ans:
+s=[1,2,3,4,5]
+s.append(6)
+print(s)
+
+23)Write a program to add an element at the first position of the list?
+    Hint:
+        Hardcode any non-empty list in the program
+        Use of built-in function of list
+Ans:
+s=[1,3,4,5,6]
+s.insert(0,2)
+print(s)
+
+24)Shorten(Re-write) the following code snippet 
+
+l1 = [ 1, 2, 45, 50 ]
+l2 = []
+for index in range(len(l1)):
+    value = l1[index]
+    l2.append(value)
+print(l2)
+
+Ans:
+l1 = [ 1, 2, 45, 50 ]
+l2 = []
+l2.extend(l1)
+print(l2)
+
+25. Shorten(Re-write) the following code snippet
+    s1 = "ABC123"
+    lst = []
+    for index in range(len(s1)):
+        value = s1[index]
+        lst.append(value)
+    s2 = "".join(lst)
+    print(s2)
+Ans:
+s1 = {1:2,3:4,5:6}
+lst = list()
+lst.extend(s1)
+print(lst)
+
+26)Write a program to delete all elements of a list using while loop?
+    Hint: 
+        Hardcode any non-empty list in the program
+        Use built-in functions of list
+Ans:
+s=[1,2,3,4,5]
+n=len(s)
+i=0
+while i < n:
+     s.pop()
+     i=i+1
+     print(s)
+     
+27. Write a program to delete all elements of a list using for loop?
+    Hint: 
+        Hardcode any non-empty list in the program
+        Use built-in function of list
+        But don't use the same built-in which you used before
+Ans:
+s=[1,2,3,4,5]
+n=[]
+for i in s:
+    n.append(s)
+    n.pop()
+print(n)
+
+28. Write a program to delete all elements of a list using for loop?
+    Hint: 
+        Hardcode any non-empty list in the program
+        Don't use built-in function of list
+Ans:
+s=[1,2,3,4,5]
+s.delete()
+print(s)
+
+29. Write a program to delete all elements of a list without using loop?
+    Hint:
+        Hardcode any list with values in the program
+        Use built-in function of list
+Ans:
+s=[1,2,3,4,5]
+s.clear()
+print(s)
+
+30. Write a program to create a backup list of an existing list, so even if we wrongly update the list we can retrive from the backup list?
+    Hint:
+        Use for loop alone
+        Don't use built-in function of list
+Ans:
+s=[1,2,3,4,5]
+backup=[None]*len(s)
+for i in range(len(s)):
+    backup[i]=s[i]
+print(backup)
+        
+31. Same as(30)
+    Hint:
+        Use built-in functions of list
+        There is more than one logic for this
+Ans:
+s=[1,2,3,4,5]
+backup=[]
+for i in range(len(s)):
+    backup.(s[i])
+print(backup)
+
+
+32. Same as (30)
+    Hint:
+        Don’t use loops
+        Don’t use built-in functions
+Ans:
+s=[1,2,3,4,5]
+backup=s.copy()
+print(s)
+
+33. Shorten(Re-write) the following code snippet
+        l = [ "a","b", "c", 1, "a", 1 ]
+        s = "a"
+        w = 0
+        for i in l:
+            if s == i:
+                w += 1
+      print(w)
+ans:
+l = [ "a","b", "c", 1, "a", 1 ]
+n=l.count("a")
+print(n)
+
+
+34. Shorten(Re-write) the following code snippet
+        l = [ "a","b", "c", 1, "a", 1 ]
+        s = 1
+        w = 0
+        for i in range(len(l)):
+            val = l[i]
+            if s == val:
+                w = i
+                break
+        print(w)
+Ans:
+l = [ "a","b", "c", 1, "a", 1 ]
+s=l.index(1)
+print(s)
+     
+35. Complete the below program to sort the elements in ascending order
+        l = [ 20, 5, 30, -23, -1 ]
+        #Use built-in functions of list
+Ans:
+l = [ 20, 5, 30, -23, -1 ]
+l.sort()
+print(l)
+
+36. Complete the below program to sort the elements in decending order
+        l = [ 20, 5, 30, -23, -1 ]
+        #Use built-in functions of list
+        #there is more than one way to do this
+Ans:
+l = [ 20, 5, 30, -23, -1 ]
+l.sort()
+l.reverse()
+print(l)
+
+l = [ 20, 5, 30, -23, -1 ]
+l.reverse()
+print(l)
+
+37)Same as (31)
+    Hint: 
+        Hardcode any non-empty list in the program
+        Use of built-in function of list
+        Don't use the function, you used in solution for (31)
+
+Ans:
+s=[1,2,3,4,5,6]
+s.extend([7])
+print(s)
+
+38) Shorten the following code snippet
+    a = 1
+    b = 2
+Ans:
+    a,b=1,2
+print(a,b)
+
+39)Shorten the following code snippet
+       a=1
+       b=2
+       temp=a
+       a=b
+       b=temp
+       print(a,b)
+Ans:
+a=1
+b=2
+a,b=b,a
+print(a,b)
+
+40) Shorten the following code snippet
+
+l = [ 12 , 32, 45 ]
+a = l[0]
+b = l[1]
+c = l[2]
+print(a,b,c)
+ans:
+l=[12,32,45]
+for i in range(len(l)):
+    print(l[i],end=" ")
+
+
+41) Shorten the following code snippet
+s1 = 123
+s2 = 456
+s3 = 789
+print(s1)
+print(s2)
+print(s3)
+ans:
+s1,s2,s3=123,456,789
+print(s1,s2,s3,sep="\n")
+
+
+42. Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, end="+")
+ans:
+
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12, end="+"
+
+
+43) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+", end="#")
+ans:
+
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="+", end="#")
+
+44) Predict output
+    s1 = 123
+    print(s1, sep="+")
+ANS:
+s1 = 123
+print(s1, sep="+")
+
+45) Predict output
+    s1 = 123
+    print(s1,end="#")
+Ans:
+s1 = 123
+print(s1, end="#")
+
+    
+46) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+", end="#", 34)
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="+", end="#",34)
+
+
+47) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep=1, end=2)
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="1", end="2")
+
+48) Predict output
+
+    s1 = 123
+    s2 = 456
+    s3 = 789
+print(s1, s2, s3, 12, sep=None, end=None)
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep=None, end=None)
+
+50) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+")
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12, sep="+")
+
+TUPLE
+51) Shorten the following code snippet
+    a = 1
+    b = 2
+ans:
+    a,b=1,2
+print(a,b)
+
+52) Shorten the following code snippet
+a=1
+b=2
+temp=a
+a=b
+b=temp
+print(a,b)
+ans:
+a=1
+b=2
+a,b=b,a
+print(a,b)
+
+53) Shorten the following code snippet
+
+l = [ 12 , 32, 45 ]
+a = l[0]
+b = l[1]
+c = l[2]
+print(a,b,c)
+ans:
+l=[12,32,45]
+for i in range(len(l)):
+    print(l[i],end=" ")
+
+54) Write a program to get name of the user from keyboard as string?
+
+ans:
+n=input("enter the string value")
+print(n,type(n))
+
+55) Write a program to get age of the user from keyboard as integer?
+
+ans:
+n=int(input("enter the integer value"))
+print(n,type(n))
+
+56) Write a program to get score of the user from keyboard as float?
+ans:
+n=float(input("enter the float value"))
+print(n,type(n))
+
+
+57) Write a program to get score of the user from keyboard as list?
+ans:
+n=list()
+for i in range(3):
+    v=input("enter the list value")    
+    n.append(v)
+    print(n)
+
+58) Write a program to get score of the user from keyboard as tuple?
+
+ans:
+
+n=input("enter the value")
+n=n.split(" ")
+n=tuple(n)
+print(n,type(n))
+
+59) Write a program to get score of the user from keyboard as dictionary?
+
+ans:
+s=int(input("enter any number"))
+n={}
+for i in range(s):
+    name=input("enter your name")
+    age=input("enter your age")
+    n[name]=age
+print(n)
+
+60) Shorten the following code snippet
+s1 = 123
+s2 = 456
+s3 = 789
+print(s1)
+print(s2)
+print(s3)
+ans:
+s1,s2,s3=123,456,789
+print(s1,s2,s3,sep="\n")
+
+61) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+")
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12, sep="+")
+
+62) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, end="+")
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12, end="+"
+
+63) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+", end="#")
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="+", end="#")
+
+64) Predict output
+    s1 = 123
+    print(s1, sep="+")
+ANS:
+s1 = 123
+print(s1, sep="+")
+
+65) Predict output
+    s1 = 123
+    print(s1,end="#")
+s1 = 123
+print(s1, end="#")
+
+    
+66) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+", end="#", 34)
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="+", end="#",34)
+
+
+67) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep=1, end=2)
+ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="1", end="2")
+
+
+68) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+print(s1, s2, s3, 12, sep=None, end=None)
+Ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep=None, end=None)
+
+69)Shorten the following code snippet
+    a = 1
+    b = 2
+Ans:
+    a,b=1,2
+print(a,b)
+
+69) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, end="+")
+Ans:
+
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12, end="+"
+
+
+70)Shorten the following code snippet
+a=1
+b=2
+temp=a
+a=b
+b=temp
+print(a,b)
+Ans:
+a=1
+b=2
+a,b=b,a
+print(a,b)
+
+71) Shorten the following code snippet
+
+l = [ 12 , 32, 45 ]
+a = l[0]
+b = l[1]
+c = l[2]
+print(a,b,c)
+Ans:
+l=[12,32,45]
+for i in range(len(l)):
+    print(l[i],end=" ")
+
+72) Write a program to get name of the user from keyboard as string?
+
+Ans:
+n=input("enter the string value")
+print(n,type(n))
+
+73) Write a program to get age of the user from keyboard as integer?
+
+Ans:
+n=int(input("enter the integer value"))
+print(n,type(n))
+
+74) Write a program to get score of the user from keyboard as float?
+Ans:
+n=float(input("enter the float value"))
+print(n,type(n))
+
+
+75) Write a program to get score of the user from keyboard as list?
+Ans:
+n=list()
+for i in range(3):
+    v=input("enter the list value")    
+    n.append(v)
+    print(n)
+
+76) Write a program to get score of the user from keyboard as tuple?
+
+Ans:
+n=input("enter the value")
+n=n.split(" ")
+n=tuple(n)
+print(n,type(n))
+
+77) Write a program to get score of the user from keyboard as dictionary?
+Ans:
+s=int(input("enter any number"))
+n={}
+for i in range(s):
+    name=input("enter your name")
+    age=input("enter your age")
+    n[name]=age
+print(n)
+
+78) Shorten the following code snippet
+s1 = 123
+s2 = 456
+s3 = 789
+print(s1)
+print(s2)
+print(s3)
+Ans:
+s1,s2,s3=123,456,789
+print(s1,s2,s3,sep="\n")
+
+79) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+")
+
+Ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12, sep="+")
+
+80) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, end="+")
+Ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12, end="+"
+
+81)predict output:
+s="7"
+s2="5678761285"
+status=0
+for ch in s2:
+    if ch==s:
+        status+=1
+print(status)
+Ans:
+s2="5678761285"
+s=s2.count("7")
+print(s)
+
+82) predict output:
+s="5678761285"
+s2="7"
+s3="3"
+s4=""
+for ch in s:
+    if ch==s2:
+        s4+=s3
+    else:
+        s4+=ch
+print(s4)
+ans:
+s="5678761285"
+s2=s.replace("7","3")
+print(s2)
+
+
+83) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+", end="#")
+Ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="+", end="#")
+
+84) Predict output
+    s1 = 123
+    print(s1, sep="+")
+ANS:
+s1 = 123
+print(s1, sep="+")
+
+85) Predict output
+    s1 = 123
+    print(s1,end="#")
+s1 = 123
+print(s1, end="#")
+
+    
+86) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep="+", end="#", 34)
+Ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="+", end="#",34)
+
+
+87) Predict output
+    s1 = 123
+    s2 = 456
+    s3 = 789
+    print(s1, s2, s3, 12, sep=1, end=2)
+Ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep="1", end="2")
+
+88) Predict output
+
+    s1 = 123
+    s2 = 456
+    s3 = 789
+print(s1, s2, s3, 12, sep=None, end=None)
+Ans:
+s1,s2,s3 = 123,456,789
+print(s1, s2, s3, 12,sep=None, end=None)
+
+89) write a pprogram to get name and of 10 people  and store name
+as key and age as value.Assume all 10 people have different names.
+the program should print the dictanary with the names and age?
+delete the name and age of the person who is youngest among the 10.print the
+dictionary before and after deletion of the item in the dictionary.if there are
+more than one person with same age and with smallest age,remove only one person
+of your choice?
+"""
+Ans:
+n=int(input("enter the no of students"))
+s={}
+for i in range(n):
+    name=input("enter the name")
+    age=int(input("enter the age"))
+    s[name]=age
+print(s)
+m,y=1000,None           
+for i in s:
+    name,age=i,s[i]
+    if m>age:
+        y=[name,age]
+        m=age
+print(s)
+s.pop(y[0])
+print(s)
+--
+90) Use built-in functions of dictionary(there is more than one logic for this)
+
+Ans:
+s={"me":"yamu","hub":"pari","bro":"bharath","mom":"anchalam"}
+d={}
+d.update(s) # d.copy(s)
+s.popitem()
+print(s)
+print(d)
+    
+91)Don’t use loops,Don’t use built-in functions
+
+Ans:
+s={"me":"yamu","hub":"pari","bro":"bharath","mom":"anchalam"}
+d=dict(s)
+s.popitem()
+print(s)
+print(d)
+
+"""
+92)Shorten(Re-write) the following code snippet
+d1 = { 1:3, 2:6, 3:9 }
+d2 = {}.fromkeys(d1)
+d3 = {}.fromkeys(d1,0.0)
+print(d2,d3)
+"""
+93) Shorten(Re-write) the following code snippet
+
+d1 = {"age": 20, "name":"Kumar"}
+lst = []
+for k in [ "age", "name", "department" ]:
+        if k in d1:
+            lst.append(d1[k])
+        else:
+            lst.append("cse")
+print(lst)
+"""
+94) Write a Triangel program for gets the input from the user and verify its triangle or not?
+
+x1=int(input("enter x1 coordinate of pt1:"))
+y1=int(input("enter y1 coordinate of pt1:"))
+x2=int(input("enter x2 coordinate of pt2:"))
+y2=int(input("enter y2 coordinate of pt2:"))
+x3=int(input("enter x3 coordinate of pt2:"))
+y3=int(input("enter y3 coordinate of pt2:"))
+a1=(x1-x2)**2
+b1=(y1-y2)**2
+A=pow(a1+b1,0.5)
+a2=(x2-x3)**2
+b2=(y2-y2)**2
+B=pow(a2+b2,0.5)
+a3=(x3-x1)**2
+b3=(y3-y1)**2
+C=pow(a3+b3,0.5)
+d=A+B+C
+print("the parameter of vertex  is (%d,%d),(%d,%d)and(%d,%d) is %d" %(x1,y1,x2,y2,x3,y3,d))
+
+95) Write a rectangel program to get an input from user and verify its rectangel or not.
+
+x1=int(input("enter x1 coordinate of pt1:"))
+y1=int(input("enter y1 coordinate of pt1:"))
+x2=int(input("enter x2 coordinate of pt2:"))
+y2=int(input("enter y2 coordinate of pt2:"))
+x3=int(input("enter x3 coordinate of pt3:"))
+y3=int(input("enter y3 coordinate of pt3:"))
+x4=int(input("enter x4 coordinate of pt4:"))
+y4=int(input("enter y4 coordinate of pt4:"))
+a1=(x1-x2)**2
+b1=(y1-y2)**2
+A=pow(a1+b1,0.5)
+a2=(x2-x3)**2
+b2=(y2-y2)**2
+B=pow(a2+b2,0.5)
+a3=(x3-x4)**2
+b3=(y3-y4)**2
+C=pow(a3+b3,0.5)
+a4=(x4-x1)**2
+b4=(y4-y1)**2
+D=pow(a4+b4,0.5)
+d=A+B+C+D
+print((x1,y1==x2,y2))
+print((x2,y2==x3,y3))
+print((x3,y3==x4,y4))
+print((x4,y4==x1,y1))
+if((x1,y1)==(x2,y2) or (x2,y2)==(x3,y3) or (x3,y3)==(x4,y4) or (x4,y4)==(x1,y1)):
+    print("perimeter of square is repeated")
+else:
+    print("it is quadrilateral square is (%s,%s),(%s,%s),(%s,%s) and (%s,%s) is %s" %(x1,y1,x2,y2,x3,y3,x4,y4,d))
+
+    --
+95) get 2 numbers and print nos starting form biggest of the two numbers till the smallest ##
+
+n=int(input("enter the first number"))
+s=int(input("enter the second number"))
+if n>=s:
+    max=n
+    min=s
+else:
+    max=s
+    min=n
+while(max>=min):
+     print(max)
+     max=max-1
+     
+      
+     --
+FUCTIONS
+96) write a function which gets a number and return its cube
+
+s=int(input("enter any number"))
+def fun(s):
+    return s
+print(s*s*s)
+
+def fun(a):
+    return a*a*a
+s=fun(4)
+print(s)
+
+"""
+97) write a program to reverse a word .
+
+k="this function is used to reverse a word"
+k=k.split()
+l=""
+for i in k:
+    l=l+" "+i[::-1]
+print(l)
+
+"""
+98) Write a code to get the number of students and get thier names
+from keyboard ans store them in a list
+
+step 1: get the value of n,where n is number of students
+step 2: use for loop to get the names of n number of students
+step 3: append the name into the list inside for loop
+step 4: print the list outside of for loop
+
+"""
+n=int(input("enter no of students"))
+a={}
+for i in range(n):
+    rollno=int(input("enter the rollno"))
+    name=input("enter the name")
+    mark=int(input("enter the marks"))
+    a[rollno]=[name,mark]
+print(a)
+for k in a:
+    n,m=a[k]
+    if m<50:
+        print(n," failed")
+    else:
+        print(n,"passed")
+
+
+"""
+99)
+s="0123456789"
+s2="AB"
+status=True
+for ch in s2:
+    if ch not in s:
+        status=False
+print(status)
+ans:
+s="012"
+s2="89"
+status=s2.isdigit()
+print(status)
+
+100)
+s="123a456adef"
+s2="a"
+lst=list()
+tmp=""
+for i in s:
+    if i==s2:
+        lst.append(tmp)
+        tmp=""
+        continue
+    else:
+        tmp+=i
+lst.append(tmp)
+print(lst)
+#ans:
+s="123a456adef"
+s2="a"
+#n=list(s)
+print(s.split(s2))
+
+#3.
+s="\tqwr456"
+s2=""
+for i in s:
+    if i not in (" ","\t"):
+        s2+=i
+print(s2)
+ans:
+s="\tqwr456"
+s2=" "
+print(s.strip())
+
+
+s="5678761285"
+s2="7"
+s3="3"
+for c in range(len(s)):
+    if s[c]==s2:
+        s3=c
+        break
+print(s3)
+
